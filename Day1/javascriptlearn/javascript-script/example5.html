@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="”en”">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example 5</title>
+  </head>
+  <body>
+    <h1 id="heading">Choose an action</h1>
+    <button id="btn1">Say Hello</button>
+    <button id="btn2">Say Goodbye</button>
+    <script>
+
+
+      let heading = document.getElementById("heading");
+      let btn1 = document.getElementById("btn1");
+      let btn2 = document.getElementById("btn2");
+      btn1.addEventListener("click", function () {
+        heading.textContent = "Hello!";
+      });
+      btn2.addEventListener("click", function () {
+        heading.textContent = "Goodbye!";
+      });
+
+      
+    </script>
+  </body>
+</html>

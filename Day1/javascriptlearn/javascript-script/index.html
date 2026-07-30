@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+      content="width"
+      ="device-width,"
+      initial-scale="1.0"
+    />
+    <title>Hello World</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Hello, world!</h1>
+    <button id="buttonWithText">Click me!</button>
+    <script>
+
+
+      let heading = document.getElementById("heading");
+      let buttonWithText = document.getElementById("buttonWithText");
+      buttonWithText.addEventListener("click", function () {
+        heading.textContent = "Text changed!";
+      });
+
+
+    </script>
+  </body>
+</html>

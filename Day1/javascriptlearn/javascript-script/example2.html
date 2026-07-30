@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="”en”">
+  <head>
+    <meta charset="”UTF-8”" />
+    <meta
+      name="”viewport”"
+      content="”width"
+      ="device-width,"
+      initial-scale="1.0”"
+    />
+    <title>Example 2</title>
+  </head>
+  <body>
+    <h1 id="heading">Learning JavaScript</h1>
+    <button id="btn">Change Text</button>
+    <script>
+
+
+      let heading = document.getElementById("heading");
+      let btn = document.getElementById("btn");
+      btn.addEventListener("click", function () {
+        heading.textContent = "JavaScript is running!";
+      });
+
+      
+    </script>
+  </body>
+</html>
